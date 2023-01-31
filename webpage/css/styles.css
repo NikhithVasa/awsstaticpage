@@ -17,7 +17,19 @@ html {
   color: white;
   background: linear-gradient(to bottom, #2473ab 0%,#1e528e 70%,#5b7983 100%);
 }
+#sticky-header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: none;
+}
 
+.coupon-code {
+  padding: 10px;
+  text-align: center;
+}
 body {
   font-size: 1.8rem;
 }
